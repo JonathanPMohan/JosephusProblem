@@ -7,6 +7,7 @@ namespace JosephusProblem
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("I Got 99 Problems But Josephus Ain't One!");
             Console.WriteLine("Enter number of people");
             var numberOfPeople = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter killing interval");
